@@ -3,11 +3,9 @@ main:
   - title: "Rendering in Analog Games: Dissected Puzzles and Georgian Death Culture"
     authors: Sean Purcell
     pub_abbr: Game Studies
-    publication: Game Studies, 2023. # include year
-    pdf: https://arxiv.org/pdf/2306.00988.pdf
-    doi: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
-    notes: Early Accept
+    publication: Game Studies
+    year: 2023
+    doi: https://gamestudies.org/2301/articles/purcell
 
   - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
     authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
@@ -19,3 +17,15 @@ main:
     doi: https://class-il.mpi-inf.mpg.de/mnemonics/
     notes: Oral Presentation
     image: ./assets/img/teaser_example.pngdoi
+    
+# The structure of the data. You can include or exclude material as you need.
+#  - title:
+#    authors:
+#    pub_abbr:
+#    publication: 
+#    pdf: 
+#    code: 
+#    page: 
+#    doi: 
+#    notes: 
+#    image: 
