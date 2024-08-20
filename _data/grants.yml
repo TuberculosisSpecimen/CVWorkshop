@@ -1,0 +1,16 @@
+main:
+
+  - awardtitle: Newcombe Dissertation Fellowship
+    amount: $32,000
+    year: 2024
+    notes: Declined
+
+  - awardtitle: IDAH Graduate Fellow
+    amount: $2,000
+    source: Institute for Digital Arts and Humanities
+    Year: 2023
+    
+#  - awardtitle: IDAH Graduate Fellow
+#    amount: $2,000
+#    source: Institute for Digital Arts and Humanities
+#    Year: 2023

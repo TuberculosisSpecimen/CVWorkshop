@@ -1,12 +1,19 @@
 main:
 
-  - awardtitle: Newcombe Dissertation Fellowship
-    amount: $32,000
-    source: Necombe Fellowship
+  - awardtitle: Graduate Student Essay Prize
+    awardproject: "Seeing Disease in Methyl Violet: Histochemistry and the Understanding of Tuberculosis (1882-1926)"
+    source: Society for Cinema and Media Studies, Science and Technology Scholarly Interest Group
     year: 2024
-    notes: Declined
 
-  - awardtitle: IDAH Graduate Fellow
-    amount: $2,000
-    source: Institute for Digital Arts and Humanities
-    Year: 2023
+  - awardtitle: Best Media Object
+    awardproject: Terminal Imaginaries
+    source: Common Ground Graduate Conference
+    Year: 2021
+    
+# The structure of the data. You can include or exclude material as you need.
+#    - awardtitle: Graduate Student Essay Prize
+#     awardproject: "Seeing Disease in Methyl Violet: Histochemistry and the Understanding of Tuberculosis (1882-1926)"
+#    amount:
+#    source: Society for Cinema and Media Studies, Science and Technology Scholarly Interest Group
+#    year: 2024
+#    notes: 
