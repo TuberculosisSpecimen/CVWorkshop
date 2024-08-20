@@ -8,7 +8,7 @@
 
 <div class="pub-row">
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title">{{ link.awardtitle }} , {{ link.source }}{% if link.amount %}| {{ link.amount }}{% end if %}</a></div>
+      <div class="title">{{ link.awardtitle }} , {{ link.source }}{% if link.amount %} | {{ link.amount }}{% endif %}</a></div>
       <div class="author">{{ link.awardproject }}</div>
       <div class="periodical"><em>{{ link.publication }} {{ link.year }}</em>
       </div>
