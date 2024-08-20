@@ -4,6 +4,7 @@ main:
     amount: $32,000
     source: Necombe Fellowship
     year: 2024
+    notes: Declined
 
   - awardtitle: IDAH Graduate Fellow
     amount: $2,000
