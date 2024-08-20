@@ -22,4 +22,6 @@ I am a Ph.D. student at ...
 
 {% include_relative _includes/conferences.md %}
 
+{% include_relative _includes/awards.md %}
+
 {% include_relative _includes/services.md %}
