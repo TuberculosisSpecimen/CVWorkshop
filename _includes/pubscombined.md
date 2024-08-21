@@ -4,13 +4,14 @@
 {% for link in site.data.pubscombined.main %}
 
 
-{% if link.type.essay %}
+{% if link.type contains "essay" %}
+essay
 title: {{ link.title }}
 author: {{ link.author }}
 {% endif %}
 
-Presentations
-{% if link.type.essay %}
+{% if link.type contains "conference" %}
+presentation
 title: {{ link.title }}
 author: {{ link.author }}
 {% endif %}
