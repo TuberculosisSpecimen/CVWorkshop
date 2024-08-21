@@ -1,24 +1,22 @@
-<h2 id="publications" style="margin: 2px 0px -15px;">Publications</h2>
+<h2 id="publications" style="margin: 2px 0px -15px;">Art</h2>
 
 <div class="publications">
 <ol class="bibliography">
-
-{% for link in site.data.publications.main %}
-
+{% for link in site.data.pubscombined.main %}
+{% if link.type contains "art" %}
 <li>
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     {% if link.image %} 
     <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width=100;height=40%">
     {% endif %}
-    {% if link.pub_abbr %} 
-    <abbr class="badge">{{ link.pub_abbr }}</abbr>
+    {% if link.title %} 
+    <abbr class="badge">{{ link.title }}</abbr>
     {% endif %}
   </div>
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="{{ link.doi }}">{{ link.title }}</a></div>
-      <div class="author">{{ link.authors }}</div>
-      <div class="periodical"><em>{{ link.publication }}, {{ link.year }}</em>
+  	<div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+      <div class="author">{{ link.title }} | {{ link.date }}</div><div class="periodical">{{ link.authors }}</div>
+      <div class="periodical"><em>{{ link.displayed }}</em>
       </div>
     <div class="links">
       {% if link.pdf %} 
@@ -38,16 +36,8 @@
       {% endif %}
       {% if link.others %} 
       {{ link.others }}
-      {% endif %}
-    </div>
-  </div>
-</div>
+      {% endif %}</div></div></div>
 </li>
-
-<br>
-
+{% endif %}
 {% endfor %}
-
-</ol>
-</div>
-
+</ol></div>

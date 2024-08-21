@@ -1,6 +1,6 @@
 main: # You can enter in your items in a long list in this form. A few notes: they will not automatically be listed by time, so you will need to order it manually, with most recent at the top and least recent at the bottom.
 
-  - type: essay # types include "essay" for peer-reviewed work, "conference" for presentations, "grant" for fellowships and other funding lines, "award" for awarded accomplishments
+  - type: essay # types include "essay" for peer-reviewed work, "conference" for presentations, "grant" for fellowships and other funding lines, "award" for awarded accomplishments, and "art" for artistic project, installation, or show.
     title: "Rendering in Analog Games: Dissected Puzzles and Georgian Death Culture"
     authors: Sean Purcell # for multiple authors, you can use the <strong></strong> or <b></b> to emphasize your authorship.
     pub_abbr: Game Studies # for type:essay
@@ -56,15 +56,32 @@ main: # You can enter in your items in a long list in this form. A few notes: th
     date: 2024
     institution: Society for Cinema and Media Studies Science and Technology Scholarly Interest Group # for type:award, type:grant
     amount: # for type:award, type:grant
-    awardedfor: "'Seeing Disease in Methyl Violet: Histochemistry and the Understanding of Tuberculosis (1882-1926)" # for type:award. This will let you write the specific project if applicable. Include '' for short work and <i></i> for books and films.
+    awardedfor: "'Seeing Disease in Methyl Violet: Histochemistry and the Understanding of Tuberculosis (1882-1926)'" # for type:award. This will let you write the specific project if applicable. Include '' for short work and <i></i> for books and films.
     
   - type: award # types include "essay" for peer-reviewed work, "conference" for presentations, "grant" for fellowships and other funding lines, "award" for awarded accomplishments
     title: Best Media Object
     date: 2021
     institution: Common Ground Graduate Conference # for type:award, type:grant
     awardedfor: <i>Terminal Imaginaries</i>
-    
-#  - type: # types include "essay" for peer-reviewed work, "conference" for presentations, "grant" for fellowships and other funding lines, "award" for awarded accomplishments
+
+  - type: art # types include "essay" for peer-reviewed work, "conference" for presentations, "grant" for fellowships and other funding lines, "award" for awarded accomplishments
+    title: <i>Tuberscopia</i>
+    authors: Sean Purcell
+    date: 2023
+    image: ./assets/img/Tuberscopia_InstallationExample.jpg #for type:essay, type:art. You will need to link to the file in your assets folder ./assets/img/[FILENAME].[FILETYPE]
+    displayed: Displayed at Common Ground Graduate Conference in April 2023, and HASTAC Conference in June 2023 
+    medium: Microscope slides, vinyl stickers, lightboard, magnifying glasses # for type:art. Refers to the material used for the art piece.
+    notes: 
+
+  - type: art
+    title: <i>Tuberculous Imaginaries</i>
+    authors: Sean Purcell
+    date: 2022
+    image: ./assets/img/TI_ProdStill1.png
+    displayed: Displayed at iFell Gallery in Bloomington, Indiana in May 2022.
+    medium: Video Installation using Three Projectors
+        
+#  - type: # types include "essay" for peer-reviewed work, "conference" for presentations, "grant" for fellowships and other funding lines, "award" for awarded accomplishments, and "art" for artistic project, installation, or show.
 #    title: 
 #    authors: 
 #    pub_abbr: # for type:essay
@@ -77,5 +94,6 @@ main: # You can enter in your items in a long list in this form. A few notes: th
 #    institution: # for type:award, type:grant
 #    amount: # for type:award, type:grant
 #    awardedfor: # for type:award. This will let you write the specific project if applicable. Include "" for short work and <i></i> for books and films.
-#    image: #for type:essay. You will need to link to the file in your assets folder ./assets/img/[FILENAME].[FILETYPE]
+#    image: #for type:essay, type:art. You will need to link to the file in your assets folder ./assets/img/[FILENAME].[FILETYPE]
+#    displayed: Displayed at Common Ground Graduate Conference in April 2023, and HASTAC Conference in June 2023 # for type:art. Refers to where and when the art piece was shown.
 #    notes:
