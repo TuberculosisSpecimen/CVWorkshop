@@ -7,7 +7,7 @@ main: # You can enter in your items in a long list in this form. A few notes: th
     publication: Game Studies # for type:essay
     date: 2023
     doi: https://gamestudies.org/2301/articles/purcell # this will provide the link to the work. You can also host .pdfs of your work on this site in the assets folder. Link it there: "./assets/pdf/[filename].pdf"
-    image: 333_Fig2_Europe_Divided_Into_its_Kingdoms.jpg #for type:essay. You will need to link to the file in your assets folder ./assets/img/[FILENAME].[FILETYPE]
+    image: ./assets/img/333_Fig2_Europe_Divided_Into_its_Kingdoms.jpg #for type:essay. You will need to link to the file in your assets folder ./assets/img/[FILENAME].[FILETYPE]
     notes:
 
 
