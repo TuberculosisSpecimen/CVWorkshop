@@ -2,7 +2,7 @@
 
 <div class="publications">
 <ol class="bibliography">
-
+<div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
 {% for link in site.data.EducationWork.main %}
 
 {% if link.degree %}
@@ -17,6 +17,7 @@
 {% endif %}
 <br>
 {% endfor %}
+</div>
 
 <h2 id="publications" style="margin: 2px 0px -15px;">Experience</h2>
 
