@@ -3,10 +3,9 @@
 <ol class="bibliography">
 
 {% for link in site.data.pubscombined.main %}
-<li>
 {% if link.type contains "essay" %}
 
-
+<li>
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     {% if link.image %} 
@@ -42,8 +41,8 @@
       {% endif %}
     </div>
 </div> 
+</li>
 {% endif %}
-<li>
 {% endfor %}
 </ol>
 </div>
