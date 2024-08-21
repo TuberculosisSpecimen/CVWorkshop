@@ -6,6 +6,8 @@ layout: homepage
 
 I am a Ph.D. student at ...
 
+{% include_relative _includes/EducationWork.md %}
+
 ## Research Interests
 
 - **Computer Vision:** image recognition, image generation, video captioning

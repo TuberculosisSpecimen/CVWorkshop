@@ -1,0 +1,28 @@
+main:
+
+  - title: "Rendering in Analog Games: Dissected Puzzles and Georgian Death Culture"
+    authors: Sean Purcell
+    pub_abbr: Game Studies
+    publication: Game Studies
+    year: 2023
+    doi: https://gamestudies.org/2301/articles/purcell
+
+  - title: "Dermographic Opacities"
+    authors: Sean Purcell
+    pub_abbr: Epoiesen
+    publication: Epoiesen
+    year: 2021
+    doi: https://epoiesen.carleton.ca/2022/01/10/dermographic-opacities/
+    image: ./assets/img/Masthead1_Montgomery_TransactionsAmerican_1901_194.png
+    
+# The structure of the data. You can include or exclude material as you need.
+#  - title:
+#    authors: For multiple authors you can use the <strong></strong> html formatting to bold your name.
+#    pub_abbr:
+#    publication: 
+#    pdf: you can link directly to a .pdf on a website, or include one in your assets folder, and link it there. ./assets/pdf/[FILENAME].pdf
+#    code: 
+#    page: 
+#    doi: 
+#    notes: 
+#    image: you will need to link to the file in your assets folder ./assets/img/[FILENAME].[FILETYPE]
