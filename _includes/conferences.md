@@ -3,7 +3,8 @@
 <div class="publications">
 <ol class="bibliography">
 
-{% for link in site.data.conferences.main %}
+{% for link in site.data.pubscombined.main %}
+{% if link.type contains "conference" %}
 
 <li>
 <div class="pub-row">
@@ -34,7 +35,7 @@
 </li>
 
 <br>
-
+{% endif %}
 {% endfor %}
 
 </ol>
