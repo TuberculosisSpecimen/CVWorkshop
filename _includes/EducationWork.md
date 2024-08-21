@@ -9,7 +9,7 @@
       <div class="title"><b>{{ link.degree }}</b></div>
       <div class="author"><b>{{ link.school }}{% if link.department %} | {{ link.department }}{% endif %}</b></div>
       <div class="periodical"><em>{% if link.thesis %}Thesis: {{ link.thesis }}{% endif %}{{ link.publication }}, {{ link.year }}</em></div>
-      <div style="position: padding-left: 10px">{% if link.advisors %}<em>Advisors: {{ link.advisors }}<br>{% endif %}{{ link.years }}
+      <div class="author" style="position: padding-left: 10px">{% if link.advisors %}<em>Advisors: {{ link.advisors }}<br>{% endif %}{{ link.years }}
       <div class="links">
       {% if link.notes %}  
       <strong> <i style="color:#e74d3c">{{ link.notes }}</i></strong></div>
