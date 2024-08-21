@@ -4,11 +4,13 @@ main:
     awardproject: "Seeing Disease in Methyl Violet: Histochemistry and the Understanding of Tuberculosis (1882-1926)"
     source: Society for Cinema and Media Studies, Science and Technology Scholarly Interest Group
     year: 2024
+    quotes: yes
 
   - awardtitle: Best Media Object
     awardproject: Terminal Imaginaries
     source: Common Ground Graduate Conference
-    Year: 2021
+    year: 2021
+    italics: yes
     
 # The structure of the data. You can include or exclude material as you need.
 #    - awardtitle: Graduate Student Essay Prize
