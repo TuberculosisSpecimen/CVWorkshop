@@ -9,7 +9,7 @@
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
       <div class="title"><b>{{ link.awardtitle }}</b> , {{ link.source }}{% if link.amount %} | {{ link.amount }}{% endif %}</div>
-      <div class="author"><% if link.italics %><i><% endif %><%if link.quotes %>"<% endif %>{{ link.awardproject }}<% if link.italics %></i><% endif %><%if link.quotes %>"<% endif %></div>
+      <div class="author">{% if link.italics %}<i>{% endif %}{%if link.quotes %}"{% endif %}{{ link.awardproject }}{% if link.italics %}</i>{% endif %}{%if link.quotes %}"{% endif %}</div>
       <div class="periodical"><em>{{ link.publication }} {{ link.year }}</em>
       </div>
     <div class="links">
