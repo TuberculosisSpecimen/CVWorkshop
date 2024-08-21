@@ -11,9 +11,9 @@
       <div class="author">{{ link.school }}{% if link.department %} | {{ link.department }}{% endif %}</div></div>
       {% if link.advisors %}<em>Advisors: {{ link.advisors }}<br>{% endif %}{{ link.years }}
       <div class="links">
-      {% if link.notes %}  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 30px;">
+      {% if link.notes %}  
       <strong> <i style="color:#e74d3c">{{ link.notes }}</i></strong></div>
-      {% endif %}</div>
+      {% endif %}
 {% endif %}</div>
 <br>
 {% endfor %}
