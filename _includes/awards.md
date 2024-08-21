@@ -6,9 +6,9 @@
 {% for link in site.data.awards.main %}
 
 
-<div class="pub-row">
+
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title">{{ link.awardtitle }} , {{ link.source }}{% if link.amount %} | {{ link.amount }}{% endif %}</a></div>
+      <div class="title"><b>{{ link.awardtitle }}</b> , {{ link.source }}{% if link.amount %} | {{ link.amount }}{% endif %}</div>
       <div class="author">{{ link.awardproject }}</div>
       <div class="periodical"><em>{{ link.publication }} {{ link.year }}</em>
       </div>
@@ -18,7 +18,6 @@
       {% endif %}
     </div>
   </div>
-</div>
 
 
 <br>
