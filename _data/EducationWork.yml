@@ -1,19 +1,29 @@
 main:
 
-  - title: "Rendering in Analog Games: Dissected Puzzles and Georgian Death Culture"
-    authors: Sean Purcell
-    pub_abbr: Game Studies
-    publication: Game Studies
-    year: 2023
-    doi: https://gamestudies.org/2301/articles/purcell
-
-  - title: "Dermographic Opacities"
-    authors: Sean Purcell
-    pub_abbr: Epoiesen
-    publication: Epoiesen
-    year: 2021
-    doi: https://epoiesen.carleton.ca/2022/01/10/dermographic-opacities/
-    image: ./assets/img/Masthead1_Montgomery_TransactionsAmerican_1901_194.png
+  - degree: PhD in Media Arts and Sciences # this is for education
+    school: Indiana University
+    department: The Media School 
+    advisors: Stephanie Deboer (chair), Kalani Craig, Joan Hawkins, Rachel Plotnick, Bret Rothstein
+    thesis: "The Tuberculosis Specimen: The Dying Body and Its Use in the War Against 'The Great White Plague' 1882 - 1926"
+    years: 2017 - Present
+    notes: In Progress
+    
+  - degree: MFA in Film and Television Production # this is for education
+    school: Loyola Marymount University
+    advisors: Arthur Dong (Chair), Lisa Leeman, Glenn Gebhard, Dmitry Kmelnitsky
+    thesis: The Vivisected Earth
+    years: 2013 - 2016
+    
+  - title: Digital Health Humanities Program Coordinator # this is for work
+    workplace: University of California San Francisco
+    years: 2024 - Present
+    duties: I oversee the Advancing Digital Health Humanities Institute.
+    notes:
+    
+  - title: Instructor of Record # this is for work
+    workplace: Indiana University
+    department: The Media School, Student Academic Center
+    years: January 2020 - May 2024
     
 # The structure of the data. You can include or exclude material as you need.
 #  - title:
