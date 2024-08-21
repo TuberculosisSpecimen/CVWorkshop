@@ -4,6 +4,8 @@ layout: homepage
 
 ## About Me
 
+{% include_relative _includes/pubscombined.md %}
+
 I am a Ph.D. student at ...
 
 {% include_relative _includes/EducationWork.md %}
