@@ -4,8 +4,6 @@ layout: homepage
 
 ## About Me
 
-{% include_relative _includes/pubscombined.md %}
-
 I am a Ph.D. student at ...
 
 {% include_relative _includes/EducationWork.md %}
@@ -22,12 +20,4 @@ I am a Ph.D. student at ...
 - **[Sept. 2019]** Our paper about few-shot learning is accepted to NeurIPS 2019.
 - **[Mar. 2019]** Our paper about few-shot learning is accepted to CVPR 2019.
 
-{% include_relative _includes/publications.md %}
-
-{% include_relative _includes/conferences.md %}
-
-{% include_relative _includes/grants.md %}
-
-{% include_relative _includes/services.md %}
-
-{% include_relative _includes/awards.md %}
+{% include_relative _includes/pubscombined.md %}
