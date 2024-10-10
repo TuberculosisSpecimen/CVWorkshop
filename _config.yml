@@ -53,5 +53,5 @@ exclude:
   - README_zh_Hant.md
   - README_de.md
   - LICENSE
-  - minimal-light.gemspec
+#  - minimal-light.gemspec
   - html_source_file/
